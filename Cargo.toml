@@ -1,0 +1,4 @@
+[package]
+name = "hamming_distance"
+version = "0.1.0"
+authors = ["Bryce Van Dyk"]
