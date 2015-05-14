@@ -1,8 +1,8 @@
 /// A trait for calculating the bitwise hamming distance
-pub trait BitwiseHammingDistancable<T> {
+pub trait BitwiseHammingDistancable<RHS = Self> {
     /// The output type of the hamming distance
     type Output;
-    fn bitwise_hamming_distance(self, other: T) -> Self::Output;
+    fn bitwise_hamming_distance(self, other: RHS) -> Self::Output;
 }
 
 impl<'a, 'b> BitwiseHammingDistancable<&'a u8> for &'b u8 {
