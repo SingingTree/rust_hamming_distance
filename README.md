@@ -4,6 +4,8 @@ Hamming distance and bitwise hamming distance implementations in rust
 
 [![Build Status](https://travis-ci.org/SingingTree/rust_hamming_distance.svg?branch=master)](https://travis-ci.org/SingingTree/rust_hamming_distance)
 
+[Documentation](http://singingtree.github.io/rust_hamming_distance/rust_hamming_distance/index.html)
+
 ## Generalised implementations
 
 Due to how type checking is done by the compiler (see for example RFCs: #586, #1053), more general
