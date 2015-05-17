@@ -1,3 +1,5 @@
+//! Bitwise hamming distance calculation
+
 /// A trait for calculating the bitwise hamming distance
 pub trait BitwiseHammingDistancable<RHS = Self> {
     /// The output type of the hamming distance

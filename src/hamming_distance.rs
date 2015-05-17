@@ -1,3 +1,5 @@
+//! Hamming distance calculation
+
 /// A trait for calculating hamming distance
 pub trait HammingDistancable<RHS = Self> {
     /// The output type of the hamming distance
