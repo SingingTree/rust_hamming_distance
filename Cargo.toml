@@ -6,5 +6,5 @@ description = "Hamming distances and bitwise hamming distances"
 documentation = "http://singingtree.github.io/rust_hamming_distance/rust_hamming_distance/index.html"
 repository = "https://github.com/SingingTree/rust_hamming_distance"
 readme = "README.md"
-keywords = ["Hamming", "Hamming Distance"]
+keywords = ["Hamming"]
 license = "MIT"
