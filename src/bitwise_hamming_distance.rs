@@ -108,4 +108,13 @@ mod tests {
         assert!(byte_slice1.bitwise_hamming_distance(byte_slice2).unwrap_err() ==
             "Slices do not have equal length");
     }
+
+    #[test]
+    fn string_byte_comparison() {
+        let string1_bytes = "this is a test".to_owned().into_bytes();
+        let string2_bytes = "wokka wokka!!!".to_owned().into_bytes();
+
+        assert!(string1_bytes.bitwise_hamming_distance(&string2_bytes).unwrap() ==
+            37)
+    }
 }

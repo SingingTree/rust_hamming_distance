@@ -1,6 +1,6 @@
 [package]
 name = "rust_hamming_distance"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Bryce Van Dyk"]
 description = "Hamming distances and bitwise hamming distances"
 documentation = "http://singingtree.github.io/rust_hamming_distance/rust_hamming_distance/index.html"
