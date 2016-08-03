@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["BitwiseHammingDistancable","A trait for calculating the bitwise hamming distance"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["HammingDistancable","A trait for calculating hamming distance"]]});
